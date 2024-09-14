@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+.active{
+    @apply text-yellow-400 underline underline-offset-4
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination a{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+}
+
+.pagination a:hover{
+    background-color: khaki;
+}
+
+.pagination li.activerPagination{
+    background-color: khaki;
+}
+
+.active-button{
+    font-weight: bold;
+    color: black;
+}
